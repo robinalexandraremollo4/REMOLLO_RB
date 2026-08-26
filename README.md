@@ -33,5 +33,12 @@ The function must:
 
 Example: `make_username("Ada", "Lovelace")` --> "ada.lovelace"
 
+The following methods were used in this problem:
+
+ - `.lower()` : This is a built-in string method that changes all letters to lowercase.
+ - `.replace(" ", "")` : This is a built in string method that removes all the spaces from the string and replaces it with an empty string.
+ - `+ "." +`  : This string concatenation operator connects the now modified first name with the period and the last name.
+
+
 
 
