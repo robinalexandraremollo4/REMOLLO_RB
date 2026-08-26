@@ -14,3 +14,24 @@ The following methods were used in this problem:
 - `text[1:]` : This uses string slicing to extract all characters from index 1 to the end of the string, the last character.
 - `text[0]` : This accessed and extracts the first character of the string located in index 0.
 - `+` : The string concatenation operator combines `text[1:]` with `text[0]` to form one string.
+
+These methods defined the function `rotate_word(text)` to move the first character of the string to the end of the substring;
+
+```python
+def rotate_word(text):
+    return text[1:] + text[0]
+```
+
+# **2. Username Builder Problem**
+
+Create a function named `make_username()` that accepts two strings: first_name and last_name.
+The function must:
+1. convert all letters to lowercase;
+2. remove all spaces from the first name;
+3. remove all spaces from the last name; and
+4. join the processed first and last names using one period (.).
+
+Example: `make_username("Ada", "Lovelace")` --> "ada.lovelace"
+
+
+
