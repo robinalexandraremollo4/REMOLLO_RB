@@ -57,6 +57,27 @@ c. last – the last element.
 Using these variables, return a new list in which the first and last elements have exchanged positions.
 The elements in middle must remain in their original order. Do not modify the input list.
 
+Example: `swap_bookends([1, 2, 3, 4, 5, 6])` -> [6, 2, 3, 4, 5, 1]"
+
+The following methods were used in this problem:
+
+- `first, *middle, last = items` : This is extended sequence unpacking that assigns the first element to `first`, the last element to `last`, and gathers all elements in the middle. 
+- `last, *middle, first` : This is a technique known as list unpacking that creates a new list by switching the first and last elements while keeping the middle elements stayed put.
+
+  Final Function:
+
+```python
+def swap_bookends(items):
+    first, *middle, last = items
+    return [last, *middle, first]
+```
+
+Thank you for reading!
+
+To see the main python program for Progrsmming Assignment 1, click this [link]
+
+  
+
 
 
 
