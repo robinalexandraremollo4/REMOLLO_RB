@@ -39,6 +39,24 @@ The following methods were used in this problem:
  - `.replace(" ", "")` : This is a built in string method that removes all the spaces from the string and replaces it with an empty string.
  - `+ "." +`  : This string concatenation operator connects the now modified first name with the period and the last name.
 
+Final Function:
+
+```python
+def make_username(first_name, last_name):
+    first_name = first_name.lower().replace(" ", "")
+    last_name = last_name.lower().replace(" ", "")
+    return first_name + "." + last_name
+```
+
+# **3. Bookend Swap Problem**
+
+Create a function named swap_bookends() that accepts a list containing at least two elements. Unpack the list into three variables:
+a. first – the first element;
+b. middle – a list containing everything between the first and last elements; and
+c. last – the last element.
+Using these variables, return a new list in which the first and last elements have exchanged positions.
+The elements in middle must remain in their original order. Do not modify the input list.
+
 
 
 
