@@ -77,7 +77,9 @@ Thank you for reading!
 To see the main python program for Progrsmming Assignment 1, click this link [https://github.com/robinalexandraremollo4/REMOLLO_RB](https://github.com/robinalexandraremollo4/REMOLLO_RB/blob/main/%5BREMOLLO_2ECED%5D%20(1).ipynb)
 
   READ ME FILE VERSION HISTORY
-  August 25, 2026 - Creating the code for Problems 1, 2, 3
+  August 25, 2026 - Encryption of the code on Jupyter Notebook for Problems 1, 2, 3 
+  August 26, 2026 - Start-up for the README file
+  August 27, 2026 - Finalization of code structures and flow of README file. Creation of a cohesive Github repository for all requirements.
 
 
 
